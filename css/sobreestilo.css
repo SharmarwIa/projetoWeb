@@ -1,0 +1,187 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #252525;
+    color: #fff;
+}
+/* cores de fundo */
+.bg-cor-1{
+    background-color: #252525;
+}
+
+.bg-cor-2{
+    background-color: #333333;
+}
+
+.bg-cor-3{
+    background-color: #82793a;
+}
+
+/* Cores para Texto */
+.cor-1{
+    color: #82793a;
+}
+
+.cor-2{
+    color: #626262;
+}
+
+.cor-clara{
+    color: #fcf5eb;
+}
+
+.cor-escuro{
+    color: #101010;
+}
+
+/* Estilos para o link da marca */
+.navbar-brand{
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-brand.navbar-brand:hover{
+    color: #aea7a7;
+}
+
+@media(min-width:768px){
+    .navbar-brand{
+        text-align: left;
+    }
+}
+
+/* ajuste dos icones da navbar */
+#navbar-itens{
+    justify-content: space-between;
+}
+
+@media(min-width:768px){
+    #navbar-itens{
+        min-width: 80%;
+        display: flex;
+    }
+}
+
+#navbar .navbar-nav{
+    flex-direction: row;
+    justify-content: end;
+}
+
+#navbar .navbar-nav li{
+    margin-left: 1em;
+}
+
+#navbar i{
+    font-size: 1.2rem;
+}
+
+#form-pesquisa{
+    width: 100%;
+    margin: 2em 0;
+}
+
+@media(min-width:768px){
+    #form-pesquisa{
+        width: 50%;
+        margin: 0;
+    }
+}
+
+/* Estilizando o Form de pesquisa */
+#form-pesquisa{
+    border: 2px solid #626262;
+    border-radius: 3px;
+    padding: 5px 15px;
+    color: #fff;
+}
+
+#form-pesquisa input{
+    background-color: transparent;
+    border: none;
+}
+
+#form-pesquisa input:focus{
+    box-shadow: none;
+}
+
+#form-pesquisa input::placeholder{
+    color: #fff;
+}
+
+/* css da NAVBAR INFERIOR */
+#container-navbar-inferior .container{
+    justify-content: flex-end;
+}
+
+/* estilizando o texto dos links da navbarinferior */
+#container-navbar-inferior a{
+    font-weight: 600;
+    color: #fff;
+}
+
+.navbar-toggler{
+    font-size: 1.5em;
+}
+
+/* formatação do sobre */
+
+#img1{
+    background-image: url('../img/casamentofeliz.jpg');
+    height: 400px;
+    width: 700px;
+    background-position: center;
+    background-size: cover;
+    margin: 40px auto;
+}
+
+#sobre p{
+    text-align: center;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+#sobre h1{
+    font-size: 24px;
+    margin: 20px;
+    text-align: center;
+    color: #82793a;
+}
+
+#sobre h5{
+    font-size: 10px;
+    margin-left: 900px;
+} 
+
+footer{
+    border-top: 1px solid rgba(179, 140, 32);
+    height: 80px;
+    width: 100%;
+    margin: 25px;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+footer #redes-sociais{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer i{
+    margin: 5px 20px;
+    font-size: 1.3rem;
+}
+
+a:hover{
+    color:rgb(209, 137, 137);
+}
+
+footer i:hover{
+    color:rgb(209, 137, 137); 
+}

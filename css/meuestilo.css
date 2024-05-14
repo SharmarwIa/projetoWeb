@@ -1,0 +1,261 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: #252525;
+    color: #fff;
+   
+    padding: 0 35px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+/* cores de fundo */
+.bg-cor-1{
+    background-color: #252525;
+}
+
+.bg-cor-2{
+    background-color: #333333;
+}
+
+.bg-cor-3{
+    background-color: #82793a;
+}
+
+/* Cores para Texto */
+.cor-1{
+    color: #82793a;
+}
+
+.cor-2{
+    color: #626262;
+}
+
+.cor-clara{
+    color: #fcf5eb;
+}
+
+.cor-escuro{
+    color: #101010;
+}
+
+/* Estilos para o link da marca */
+.navbar-brand{
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-brand.navbar-brand:hover{
+    color: #aea7a7;
+}
+
+@media(min-width:768px){
+    .navbar-brand{
+        text-align: left;
+    }
+}
+
+/* ajuste dos icones da navbar */
+#navbar-itens{
+    justify-content: space-between;
+}
+
+@media(min-width:768px){
+    #navbar-itens{
+        min-width: 80%;
+        display: flex;
+    }
+}
+
+#navbar .navbar-nav{
+    flex-direction: row;
+    justify-content: end;
+}
+
+#navbar .navbar-nav li{
+    margin-left: 1em;
+}
+
+#navbar i{
+    font-size: 1.2rem;
+}
+
+#form-pesquisa{
+    width: 100%;
+    margin: 2em 0;
+}
+
+@media(min-width:768px){
+    #form-pesquisa{
+        width: 50%;
+        margin: 0;
+    }
+}
+
+/* Estilizando o Form de pesquisa */
+#form-pesquisa{
+    border: 2px solid #626262;
+    border-radius: 3px;
+    padding: 5px 15px;
+    color: #fff;
+}
+
+#form-pesquisa input{
+    background-color: transparent;
+    border: none;
+}
+
+#form-pesquisa input:focus{
+    box-shadow: none;
+}
+
+#form-pesquisa input::placeholder{
+    color: #fff;
+}
+
+/* css da NAVBAR INFERIOR */
+#container-navbar-inferior .container{
+    justify-content: flex-end;
+}
+
+/* estilizando o texto dos links da navbarinferior */
+#container-navbar-inferior a{
+    font-weight: 600;
+    color: #fff;
+}
+
+.navbar-toggler{
+    font-size: 1.5em;
+}
+
+/* TENTIVA DE FORMTAÇÃO */
+
+#BemVindo h4{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(196, 173, 69);
+}
+
+
+#BemVindo p{
+    text-align: center;
+    margin-left: 170px;
+    margin-right: 170px;
+}
+
+#BemVindo h5{
+    font-size: 10px;
+    margin-left: 900px;
+} 
+
+/* Formatando o Rodapé */
+
+footer{
+    border-top: 1px solid rgba(179, 140, 32);
+    height: 90px;
+    width: 100%;
+    margin: 25px;
+    text-align: center;
+}
+
+footer #redes-sociais{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+footer i{
+    margin: 5px 20px;
+    font-size: 1.3rem;
+}
+
+a:hover{
+    color:rgb(209, 137, 137);
+}
+
+footer i:hover{
+    color:rgb(209, 137, 137); 
+}
+
+footer p{
+    margin-top: 10px;
+}
+
+/* Formataão do Responsive Card */
+
+
+
+/* Meus estilos para o Banners */
+
+#banners-container{
+    padding: 0;
+}
+
+.carousel-caption{
+    padding: 1em;
+    left: 12%;
+    right: 12%;
+}
+
+.carousel-caption h5{
+    font-size: 1.2em;
+}
+
+@media(min-width: 768px){
+    #slider .carousel-item,
+    #slider img {
+        height: 600px;
+    }
+}
+
+/* CSS dos mini-banners */
+
+#mini-banners-container{
+    margin-top: 3em;
+    z-index: 10;
+}
+
+#mini-banners-container .col-12{
+    z-index: 1;
+    height: 300px;
+    padding: 1.5em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media(min-width:768px){
+    #mini-banners-container .col-12{
+        max-width: 30%;
+    }
+}
+
+#mini-banners-container .col-12 h2{
+    text-transform: uppercase;
+    max-width: 50%;
+    font-size: 2em;
+    font-weight: 700;
+    line-height: 1em;
+}
+
+#mini-banners-container .col-12 img{
+    height: 150px;
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+}
+
+#mini-banners-container .col-12 a{
+    font-weight: bold;
+    color: #fff;
+    font-size: 0.8em;
+    transition: 0.5s;
+}
+
+#mini-banners-container .col-12 a:hover{
+    color: #626262;
+}
